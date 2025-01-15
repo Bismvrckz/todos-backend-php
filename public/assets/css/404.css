@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Metal Mania';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Metal Mania'), local('MetalMania-Regular'), url(http://fonts.gstatic.com/s/metalmania/v6/_MPduYXiaptg6GQ2M6AHtI4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/metalmania/v6/_MPduYXiaptg6GQ2M6AHtIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}

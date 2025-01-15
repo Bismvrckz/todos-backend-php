@@ -1,0 +1,402 @@
+.error{
+    color: #b94a48;
+    font-size: 8px;
+}
+.help-block {
+    color: #b94a48;
+    font-size: 8px;
+}
+.help-block {
+    color: #B40404;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#dvLoading{
+	/*background: url(../img/loading_1.gif) no-repeat center center;*/
+	background: url(../img/gorilla-animated-2.gif) no-repeat center center;
+	height: 500px;
+	width: 180px;
+	position: fixed;
+	z-index: 1000;
+	left: 50%;
+	top: 20%;
+	margin: -25px 0 0 -25px;
+}
+
+.btn{
+	margin-bottom:10px;
+}
+
+.btnxx{
+	margin-bottom:10px;
+}
+
+
+.btnx{
+ 	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #a2a2a2;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.btnxx{
+	display: inline-block;
+	padding: 4px 12px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#tablercn{
+	font-size:9px;
+}
+#tablercnx{
+	font-size:9px;
+}
+#tablercnxx{
+	font-size:9px;
+}
+#tableuser,#tableemailbank,#tableemaillistmitra{
+	font-size:9px;
+}
+.x{
+	padding:0;
+	margin:0;
+}
+
+th.center{
+		text-align:center;
+}
+
+#xbtnx{
+	margin:0;
+}
+
+td.center{
+		text-align:center;
+}
+
+#tableftplistmitra,#tableftplistmitramb{
+	font-size: 10px;
+}
+
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+	#tableuser table,
+	#tableuser thead,
+	#tableuser tbody,
+	#tableuser th,
+	#tableuser td,
+	#tableuser tr {
+		display: block;
+	}
+
+	#tableuser thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tableuser tr { border: 1px solid #ccc; }
+
+	#tableuser td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tableuser td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tableuser td:nth-of-type(1):before { content: "User"; font-weight:bold;color:#013066;}
+	#tableuser td:nth-of-type(2):before { content: "Pass"; font-weight:bold;color:#013066;}
+	#tableuser td:nth-of-type(3):before { content: "Email"; font-weight:bold;color:#013066;}
+    #tableuser td:nth-of-type(4):before { content: "Tools"; font-weight:bold;color:#013066;text-align:left;}
+	
+	/*** **/
+	
+	
+	#tableftplistmitra table,
+	#tableftplistmitra thead,
+	#tableftplistmitra tbody,
+	#tableftplistmitra th,
+	#tableftplistmitra td,
+	#tableftplistmitra tr {
+		display: block;
+	}
+
+	#tableftplistmitra thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tableftplistmitra tr { border: 1px solid #ccc; }
+
+	#tableftplistmitra td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tableftplistmitra td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tableftplistmitra td:nth-of-type(1):before { content: "TID"; font-weight:bold;color:#013066;}
+	#tableftplistmitra td:nth-of-type(2):before { content: "MITRA"; font-weight:bold;color:#013066;}
+	#tableftplistmitra td:nth-of-type(3):before { content: "USER"; font-weight:bold;color:#013066;}
+	#tableftplistmitra td:nth-of-type(4):before { content: "PASS"; font-weight:bold;color:#013066;}
+	
+	
+	/*** **/
+	
+	#tableftplistmitramb table,
+	#tableftplistmitramb thead,
+	#tableftplistmitramb tbody,
+	#tableftplistmitramb th,
+	#tableftplistmitramb td,
+	#tableftplistmitramb tr {
+		display: block;
+	}
+
+	#tableftplistmitramb thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tableftplistmitramb tr { border: 1px solid #ccc; }
+
+	#tableftplistmitramb td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tableftplistmitramb td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tableftplistmitramb td:nth-of-type(1):before { content: "BILLER"; font-weight:bold;color:#013066;}
+	#tableftplistmitramb td:nth-of-type(2):before { content: "MITRA"; font-weight:bold;color:#013066;}
+	#tableftplistmitramb td:nth-of-type(3):before { content: "USER"; font-weight:bold;color:#013066;}
+	#tableftplistmitramb td:nth-of-type(4):before { content: "PASS"; font-weight:bold;color:#013066;}
+	
+	/*** ***/
+	
+	
+	#tableemailbank table,
+	#tableemailbank thead,
+	#tableemailbank tbody,
+	#tableemailbank th,
+	#tableemailbank td,
+	#tableemailbank tr {
+		display: block;
+	}
+
+	#tableemailbank thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tableemailbank tr { border: 1px solid #ccc; }
+
+	#tableemailbank td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tableemailbank td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tableemailbank td:nth-of-type(1):before { content: "KD BANK"; font-weight:bold;color:#013066;}
+	#tableemailbank td:nth-of-type(2):before { content: "BANK"; font-weight:bold;color:#013066;}
+	#tableemailbank td:nth-of-type(3):before { content: "KD EMAIL"; font-weight:bold;color:#013066;}
+	#tableemailbank td:nth-of-type(4):before { content: "TO"; font-weight:bold;color:#013066;}
+	#tableemailbank td:nth-of-type(5):before { content: "CC"; font-weight:bold;color:#013066;}
+	#tableemailbank td:nth-of-type(6):before { content: "TOOLS"; font-weight:bold;color:#013066;text-align:left;}
+	
+	
+	/*** ***/
+	
+	
+	#tableemaillistmitra table,
+	#tableemaillistmitra thead,
+	#tableemaillistmitra tbody,
+	#tableemaillistmitra th,
+	#tableemaillistmitra td,
+	#tableemaillistmitra tr {
+		display: block;
+	}
+
+	#tableemaillistmitra thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tableemaillistmitra tr { border: 1px solid #ccc; }
+
+	#tableemaillistmitra td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tableemaillistmitra td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tableemaillistmitra td:nth-of-type(1):before { content: "MITRA"; font-weight:bold;color:#013066;}
+	#tableemaillistmitra td:nth-of-type(2):before { content: "TO"; font-weight:bold;color:#013066;}
+	#tableemaillistmitra td:nth-of-type(3):before { content: "CC"; font-weight:bold;color:#013066;}
+	#tableemaillistmitra td:nth-of-type(4):before { content: "TOOLS"; font-weight:bold;color:#013066;text-align:left;}
+	
+	/**** NOTIFICATION ***/
+	
+	#tablercnx table,
+	#tablercnx thead,
+	#tablercnx tbody,
+	#tablercnx th,
+	#tablercnx td,
+	#tablercnx tr {
+		display: block;
+	}
+
+	#tablercnx thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tablercnx tr { border: 1px solid #ccc; }
+
+	#tablercnx td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tablercnx td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tablercnx td:nth-of-type(1):before { content: "PRODUK"; font-weight:bold;color:#013066;}
+	#tablercnx td:nth-of-type(2):before { content: "USER"; font-weight:bold;color:#013066;}
+	#tablercnx td:nth-of-type(3):before { content: "PROSES"; font-weight:bold;color:#013066;}
+	#tablercnx td:nth-of-type(4):before { content: "WAKTU"; font-weight:bold;color:#013066;text-align:left;}
+	
+	
+	/****** FAQ *****/
+	
+	#tablercnxx table,
+	#tablercnxx thead,
+	#tablercnxx tbody,
+	#tablercnxx th,
+	#tablercnxx td,
+	#tablercnxx tr {
+		display: block;
+	}
+
+	#tablercnxx thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#tablercnxx tr { border: 1px solid #ccc; }
+
+	#tablercnxx td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 30%;
+	}
+
+	#tablercnxx td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	#tablercnxx td:nth-of-type(1):before { content: "USER"; font-weight:bold;color:#013066;}
+	#tablercnxx td:nth-of-type(2):before { content: "ASK"; font-weight:bold;color:#013066;}
+	#tablercnxx td:nth-of-type(3):before { content: ""; font-weight:bold;color:#013066;}
+}
